@@ -1,10 +1,11 @@
 # net-capture
 
-参考goreplay，基于gopacket+libpcap实现的网络抓包项目，可以通过配置目标IP和端口，抓取TCP和UDP协议的内容
+参考[goreplay](https://github.com/buger/goreplay)，基于gopacket+libpcap实现的网络抓包项目，可以通过配置目标IP和端口，抓取TCP和UDP协议的内容
 
 ## 本地启动
 
 运行`cmd`目录下的main.go，添加如下启动参数
+
 ```text
 --config-file=./pkg/script/config.yml
 ```
